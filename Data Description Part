@@ -1,0 +1,14 @@
+Data Description:
+Foursquare API Data:
+We will need to use the Foursquare locational data. Foursquare is a location data provider with information about all manner of venues and events within an 
+area of interest. Such information includes venue names, locations, menus and even photos. As such, the foursquare location platform will be used as the 
+sole data source since all the stated required information can be obtained through the API.
+
+We will then find the list of venues in the city of Saratoga, CA and then pick out the Japanese restaurants.
+
+We will need the following data:
+1. Saratoga's Latitude and Longitude
+2. Name of Venue(Japanese restaurants)
+3. Rating of Japanese Restaurants
+4. Wait time
+5. Average price for a dinner
