@@ -1,0 +1,32 @@
+Introduction Part:
+A lot of people enjoy different cuisines like Chinese, Japanese, Korean, and American. Many people want to find out how many or which of one type of cuisine is
+near them. The purpose of this project is to find the top ten Japanese restaurants near my area. This project aims to create an analysis of all places around the area
+and pick out the best Japanese restaurants near the area. This wil give people an idea on where to go eat lunch or which place is best to eat dinner with 
+friends.
+
+Problem I need to solve:
+The purpose of this project is to find out the top ten Japanese restaurants in the area of Saratoga CA. The things i need to look out for are, price, waiting time, 
+and ratings.
+1. I will need a list of all places near the area I am loking at. 
+2. I will need a list of only Japanese restaurants and the ratings, overall average price, and waiting times.
+
+Location:
+For this project I will be looking into the Saratoga, CA area because there are multiple Japanese restaurants near there. And I am interested to see the result for
+I live there and it will help me when I look for places to eat.
+
+Foursquare API:
+This project would use Four-square API as its prime data gathering source as it has a database of millions of places, especially their places API which provides 
+the ability to perform location search, location sharing and details about businesses.
+
+WorkFlow:
+Using credentials of Foursquare API features of near-by places of the neighborhoods would be mined. The number of places per neighborhood parameter would 
+reasonably be set to 100 beause I am only trying to get the top ten and the radius parameter would be set to 500.
+
+Libraries Which are Used to Develope the Project:
+Pandas: For creating and manipulating dataframes.
+Folium: Python visualization library would be used to visualize the neighborhoods cluster distribution of using interactive leaflet map.
+Scikit Learn: For importing k-means clustering.
+JSON: Library to handle JSON files.
+Geocoder: To retrieve Location Data.
+Beautiful Soup and Requests: To scrap and library to handle http requests.
+Matplotlib: Python Plotting Module.
